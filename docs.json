@@ -21,7 +21,7 @@
             "password":"omar123"
         },
         "responseExample":{
-            "massege": "Done",
+            "message": "Done",
             "token":"ghkasljdflkjgdkfaheor;athoeruisd"
         },
 
@@ -61,8 +61,62 @@
             "phonenumber":"01154006679"
         },
         "responseExample":{
-            "massege": "Done",
+            "message": "Done",
             "token":"ghkasljdflkjgdkfaheor;athoeruisd"
+        },
+
+        "responseDescription":"Receives 'Done' if EveryThing Went Well, OtherWise, Reacives 'Somthing went Wrong'"
+    },
+    {
+        "endpoint":"/updatepassword",
+        "method":"POST",
+        "description":"register New User to System",
+        "parameters":[
+            {
+                "paramName":"email",
+                "paramType":"string",
+                "paramDescription":"The Email of the User"
+            },
+            {
+                "paramName":"newPassword",
+                "paramType":"String",
+                "paramDescription":"the New Desired Password of the User"
+            }
+            
+        ],
+        "requestExample":{
+            "email":"omar@gmail.com",
+            "newPassword":"omar123"
+        },
+        "responseExample":{
+            "message": "Done"
+        },
+
+        "responseDescription":"Receives 'Done' if EveryThing Went Well, OtherWise, Reacives 'Somthing went Wrong'"
+    },
+    {
+        "endpoint":"/changePassword",
+        "method":"POST",
+        "description":"register New User to System",
+        "parameters":[
+            {
+                "paramName":"email",
+                "paramType":"string",
+                "paramDescription":"The Email of the User To Identify The User"
+            },
+            {
+                "paramName":"newPassword",
+                "paramType":"String",
+                "paramDescription":"the new Desired Password of the User"
+            }
+            
+        ],
+        "requestExample":{
+            "email":"omar@gmail.com",
+            "newPassword":"omar123"
+        },
+        "responseExample":{
+            "message": "Done"
         },
 
         "responseDescription":"Receives 'Done' if EveryThing Went Well, OtherWise, Reacives 'Somthing went Wrong'"
