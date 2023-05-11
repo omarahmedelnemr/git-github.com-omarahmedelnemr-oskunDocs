@@ -58,7 +58,7 @@
             "name":"omarELnemr",
             "email":"omar@gmail.com",
             "password":"omar123",
-            "phonenumber":"01154006679"
+            "phoneNumber":"01154006679"
         },
         "responseExample":{
             "message": "Done",
