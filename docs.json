@@ -48,7 +48,7 @@
                 "paramDescription":"the Password of the User"
             },
             {
-                "paramName":"phonenumber",
+                "paramName":"phoneNumber",
                 "paramType":"string",
                 "paramDescription":"The phone Number of the User"
             }
